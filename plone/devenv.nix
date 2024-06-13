@@ -28,7 +28,6 @@
   languages.python.enable = true;
   languages.python.uv.enable = true;
   languages.python.venv.enable = true;
-  languages.python.venv.requirements = "-r requirements.txt";
 
   # https://devenv.sh/pre-commit-hooks/
   # pre-commit.hooks.shellcheck.enable = true;
