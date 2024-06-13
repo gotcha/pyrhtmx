@@ -34,7 +34,7 @@
   # pre-commit.hooks.shellcheck.enable = true;
 
   # https://devenv.sh/processes/
-  # processes.ping.exec = "ping example.com";
+  processes.plone.exec = "make start";
 
   # See full reference at https://devenv.sh/reference/options/
 }

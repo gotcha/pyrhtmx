@@ -11,5 +11,5 @@ devenv.local.nix
 parts
 eggs
 var
-.installed.cfg
 bin
+.installed.cfg
