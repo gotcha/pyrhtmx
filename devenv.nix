@@ -2,7 +2,7 @@
 
 {
   # https://devenv.sh/basics/
-  env.GREET = "devenv";
+  env.GREET = "PYRAMID devenv";
 
   # https://devenv.sh/packages/
   packages = [ pkgs.git ];
@@ -27,6 +27,9 @@
   # https://devenv.sh/languages/
   languages.python.enable = true;
   languages.python.uv.enable = true;
+  languages.python.venv.enable = true;
+  languages.python.venv.requirements = ./requirements.txt;
+
 
   # https://devenv.sh/pre-commit-hooks/
   # pre-commit.hooks.shellcheck.enable = true;

@@ -1,0 +1,4 @@
+uv >= 0.2
+pyramid == 2.0.2
+cookiecutter
+-e "./repo[testing]"
